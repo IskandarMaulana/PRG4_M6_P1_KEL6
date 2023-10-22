@@ -30,9 +30,9 @@ public partial class ApplicationDbContext : DbContext
     {
         modelBuilder.Entity<DataPetuga>(entity =>
         {
-            entity.HasKey(e => e.Nim);
+            entity.HasKey(e => e.Nim).HasName("PK_Data Petugas");
 
-            entity.ToTable("Data Petugas");
+            entity.ToTable("data_petugas");
 
             entity.Property(e => e.Nim)
                 .HasMaxLength(10)
@@ -57,7 +57,7 @@ public partial class ApplicationDbContext : DbContext
         {
             entity
                 .HasNoKey()
-                .ToTable("Pengumuman");
+                .ToTable("pengumuman");
 
             entity.Property(e => e.Id)
                 .ValueGeneratedOnAdd()
