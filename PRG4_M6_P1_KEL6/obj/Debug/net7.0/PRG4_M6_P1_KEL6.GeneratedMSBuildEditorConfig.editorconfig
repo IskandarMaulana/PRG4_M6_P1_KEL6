@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PRG4_M6_P1_KEL6
 build_property.RootNamespace = PRG4_M6_P1_KEL6
-build_property.ProjectDir = C:\Users\CIS\source\repos\PRG4_M6_P1_KEL6\PRG4_M6_P1_KEL6\
+build_property.ProjectDir = C:\backup\2.1\PRG4\mini_project\PRG4_M6_P1_KEL6\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\CIS\source\repos\PRG4_M6_P1_KEL6\PRG4_M6_P1_KEL6
+build_property.MSBuildProjectDirectory = C:\backup\2.1\PRG4\mini_project\PRG4_M6_P1_KEL6
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Home/Index.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Home/Privacy.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Pengumumen/Create.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Pengumumen/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ3VtdW1lblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Pengumumen/Delete.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Pengumumen/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ3VtdW1lblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Pengumumen/Details.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Pengumumen/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ3VtdW1lblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Pengumumen/Edit.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Pengumumen/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ3VtdW1lblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Pengumumen/Index.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Pengumumen/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ3VtdW1lblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Shared/Error.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Users/Create.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Users/Delete.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Users/Details.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Users/Edit.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Users/Index.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/_ViewImports.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/_ViewStart.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CIS/source/repos/PRG4_M6_P1_KEL6/PRG4_M6_P1_KEL6/Views/Shared/_Layout.cshtml]
+[C:/backup/2.1/PRG4/mini_project/PRG4_M6_P1_KEL6/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8vrp3d2h2w
