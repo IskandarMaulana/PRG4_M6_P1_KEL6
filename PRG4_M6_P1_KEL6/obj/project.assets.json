@@ -11211,19 +11211,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\CIS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\backup\\2.1\\PRG4\\mini_project\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+      "projectUniqueName": "C:\\Users\\CIS\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
       "projectName": "PRG4_M6_P1_KEL6",
-      "projectPath": "C:\\backup\\2.1\\PRG4\\mini_project\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\backup\\2.1\\PRG4\\mini_project\\PRG4_M6_P1_KEL6\\obj\\",
+      "projectPath": "C:\\Users\\CIS\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+      "packagesPath": "C:\\Users\\CIS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CIS\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11293,7 +11293,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
