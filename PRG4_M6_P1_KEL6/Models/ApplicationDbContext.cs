@@ -55,13 +55,13 @@ public partial class ApplicationDbContext : DbContext
 
         modelBuilder.Entity<Pengumuman>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("pengumuman");
+            entity.ToTable("pengumuman");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.IsiPengumuman)
+                .HasMaxLength(260)
+                .IsUnicode(false)
+                .HasColumnName("isi_pengumuman");
             entity.Property(e => e.JenisPengumuman)
                 .HasMaxLength(50)
                 .IsUnicode(false)
