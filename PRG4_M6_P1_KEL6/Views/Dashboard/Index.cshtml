@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Dashboard Admin";
+}
+
+<section class="section dashboard">
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Reports</h5>
+                        <div id="reportsChart"></div>
+                        <script>
+                            document.addEventListener("DOMContentLoaded", () => {
+                                new ApexCharts(document.querySelector("#reportsChart"), {
+                                    series: [
+                                        {
+                                            name: 'Tersedia',
+                                            data: [31, 40, 28, 51, 42, 82, 56],
+                                        },
+                                        {
+                                            name: 'Dipinjam',
+                                            data: [11, 32, 45, 32, 34, 52, 41],
+                                        },
+                                        {
+                                            name: 'Rusak',
+                                            data: [2, 3, 3, 4, 5, 5, 5],
+                                        },
+                                    ],
+                                    chart: {
+                                        type: 'area',
+                                    },
+                                    xaxis: {
+                                        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                                    },
+                                }).render();
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>

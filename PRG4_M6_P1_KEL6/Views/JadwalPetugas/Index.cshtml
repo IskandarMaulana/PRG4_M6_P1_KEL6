@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PRG4_M6_P1_KEL6.Models.JadwalPetuga>
+
+@{
+    ViewData["Title"] = "Jadwal Petugas";
+}
+
+<h1>Dashboard > Jadwal Petugas</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+<div class="card-body">
+    <h4 class="card-title">Data Petugas</h4>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tugas)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.WaktuTugas)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NimNavigation)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tugas)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WaktuTugas)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NimNavigation.Nim)
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+    </div>
+</div>

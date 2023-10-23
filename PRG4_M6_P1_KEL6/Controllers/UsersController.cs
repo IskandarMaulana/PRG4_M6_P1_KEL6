@@ -5,12 +5,38 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using PRG4_M6_P1_KEL6.Models;
 
 namespace PRG4_M6_P1_KEL6.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly Users _anggotaRepository;
+
+        public UsersController(IConfiguration configuration)
+        {
+            _anggotaRepository = new Users(configuration);
+        }
+        public IActionResult Index(User anggotaModel)
+        {
+            anggotaModel = new User();
+
+            string serializedModel = HttpContext.Session.GetString("Identity");
+
+            if (serializedModel == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                anggotaModel = JsonConvert.DeserializeObject<User>(serializedModel);
+            }
+
+            /*ViewBag.UserRole = anggotaModel.peran;*/
+            return View(_anggotaRepository);
+        }
+
         private readonly ApplicationDbContext _context;
 
         public UsersController(ApplicationDbContext context)

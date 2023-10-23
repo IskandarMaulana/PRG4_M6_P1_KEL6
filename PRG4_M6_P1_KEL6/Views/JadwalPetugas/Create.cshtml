@@ -1,0 +1,37 @@
+﻿@model PRG4_M6_P1_KEL6.Models.JadwalPetuga
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Jadwal Petugas</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nim" class="control-label"></label>
+                <select asp-for="Nim" class ="form-control" asp-items="ViewBag.Nim"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tugas" class="control-label"></label>
+                <input asp-for="Tugas" class="form-control" />
+                <span asp-validation-for="Tugas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WaktuTugas" class="control-label"></label>
+                <input asp-for="WaktuTugas" class="form-control" />
+                <span asp-validation-for="WaktuTugas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            <div>
+                <a class="btn btn-secondary" asp-action="Index"><i class="fa fa-angle-double-left"></i> Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@model PRG4_M6_P1_KEL6.Models.JadwalPetuga
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>JadwalPetuga</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nim" class="control-label"></label>
+                <select asp-for="Nim" class="form-control" asp-items="ViewBag.Nim"></select>
+                <span asp-validation-for="Nim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tugas" class="control-label"></label>
+                <input asp-for="Tugas" class="form-control" />
+                <span asp-validation-for="Tugas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WaktuTugas" class="control-label"></label>
+                <input asp-for="WaktuTugas" class="form-control" />
+                <span asp-validation-for="WaktuTugas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

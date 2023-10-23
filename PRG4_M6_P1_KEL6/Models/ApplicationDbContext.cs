@@ -17,6 +17,8 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<DataPetuga> DataPetugas { get; set; }
 
+    public virtual DbSet<JadwalPetuga> JadwalPetugas { get; set; }
+
     public virtual DbSet<Pengumuman> Pengumumen { get; set; }
 
     public virtual DbSet<Transaksi> Transaksis { get; set; }
@@ -51,6 +53,30 @@ public partial class ApplicationDbContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("prodi");
             entity.Property(e => e.Status).HasColumnName("status");
+        });
+
+        modelBuilder.Entity<JadwalPetuga>(entity =>
+        {
+            entity.ToTable("jadwal_petugas");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Nim)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("nim");
+            entity.Property(e => e.Tugas)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("tugas");
+            entity.Property(e => e.WaktuTugas)
+                .HasMaxLength(15)
+                .IsUnicode(false)
+                .HasColumnName("waktu_tugas");
+
+            entity.HasOne(d => d.NimNavigation).WithMany(p => p.JadwalPetugas)
+                .HasForeignKey(d => d.Nim)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_jadwal_petugas_data_petugas");
         });
 
         modelBuilder.Entity<Pengumuman>(entity =>

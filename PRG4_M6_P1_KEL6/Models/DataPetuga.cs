@@ -15,5 +15,7 @@ public partial class DataPetuga
 
     public int Status { get; set; }
 
+    public virtual ICollection<JadwalPetuga> JadwalPetugas { get; set; } = new List<JadwalPetuga>();
+
     public virtual Transaksi? Transaksi { get; set; }
 }
