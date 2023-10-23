@@ -1,0 +1,53 @@
+﻿@model PRG4_M6_P1_KEL6.Models.DataPetuga
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DataPetuga</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nim" class="control-label"></label>
+                <input asp-for="Nim" class="form-control" />
+                <span asp-validation-for="Nim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nama" class="control-label"></label>
+                <input asp-for="Nama" class="form-control" />
+                <span asp-validation-for="Nama" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prodi" class="control-label"></label>
+                <input asp-for="Prodi" class="form-control" />
+                <span asp-validation-for="Prodi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoTelp" class="control-label"></label>
+                <input asp-for="NoTelp" class="form-control" />
+                <span asp-validation-for="NoTelp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

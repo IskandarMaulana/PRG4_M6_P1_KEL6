@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "10qeMhvnktTk3N7KupKPdHDO7KNWLD3gPRCOAtzHE0Od0NKD84yDBkIYqpo59cNEKCD80FKDY9RA18fsr9QCTg==",
+  "dgSpecHash": "+//f+oDsBI5n1FkSWxjlqzGFSXnnugv/7n9uuAzFYRXihbogyVeZWSCWmsvgKG1lEAqfFQJzb8yoBXM9ierUIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Source\\Repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+  "projectFilePath": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\student\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
