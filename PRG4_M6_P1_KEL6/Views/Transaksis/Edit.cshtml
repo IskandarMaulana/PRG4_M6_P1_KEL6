@@ -1,0 +1,44 @@
+﻿@model PRG4_M6_P1_KEL6.Models.Transaksi
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Transaksi</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Nim" />
+            <div class="form-group">
+                <label asp-for="Tanggal" class="control-label"></label>
+                <input asp-for="Tanggal" class="form-control" />
+                <span asp-validation-for="Tanggal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Jobdesk" class="control-label"></label>
+                <input asp-for="Jobdesk" class="form-control" />
+                <span asp-validation-for="Jobdesk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WaktuSholat" class="control-label"></label>
+                <input asp-for="WaktuSholat" class="form-control" />
+                <span asp-validation-for="WaktuSholat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

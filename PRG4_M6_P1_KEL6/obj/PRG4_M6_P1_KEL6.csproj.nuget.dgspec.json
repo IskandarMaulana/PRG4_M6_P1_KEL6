@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {}
+    "C:\\Users\\student\\Source\\Repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {
+    "C:\\Users\\student\\Source\\Repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
         "projectName": "PRG4_M6_P1_KEL6",
-        "projectPath": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+        "projectPath": "C:\\Users\\student\\Source\\Repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\obj\\",
+        "outputPath": "C:\\Users\\student\\Source\\Repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",

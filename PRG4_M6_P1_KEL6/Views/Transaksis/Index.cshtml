@@ -1,0 +1,53 @@
+﻿@model IEnumerable<PRG4_M6_P1_KEL6.Models.Transaksi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tanggal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jobdesk)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WaktuSholat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NimNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tanggal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jobdesk)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WaktuSholat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NimNavigation.Nim)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Nim">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Nim">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Nim">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
