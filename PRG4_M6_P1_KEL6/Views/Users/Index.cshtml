@@ -1,15 +1,17 @@
 ﻿@model IEnumerable<PRG4_M6_P1_KEL6.Models.User>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Pengguna";
 }
 
-<div class="card-body">
-    <h4 class="card-title">Data Pengumuman</h4>
+<h2>Dashboard > Pengguna</h2>
 
-    <p>
-        <a class="btn btn-primary" asp-action="Create">Create New</a>
-    </p>
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<div class="card-body">
+    <h4 class="card-title">Data Pengguna</h4>
+
     <div class="table-responsive">
         <table class="table">
 
@@ -22,7 +24,7 @@
                         Alamat
                     </th>
                     <th>
-                        NoTelp
+                        Nomor Telepon
                     </th>
                     <th>
                         Status
@@ -44,12 +46,19 @@
                             @Html.DisplayFor(modelItem => item.NoTelp)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Status)
+                            @if (item.Status == 0)
+                            {
+                                <p>Tidak Aktif</p>
+                            }
+                            else if (item.Status == 1)
+                            {
+                                <p>Aktif</p>
+                            }
                         </td>
                         <td>
-                            <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id"><i class="mdi mdi-lead-pencil"></i></a> |
-                            <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id"><i class="mdi mdi-information"></i></a> |
-                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="mdi mdi-cup"></a>
+                            <a class="btn btn-secondary btn-rounded btn-fw" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pencil-square"></i></a>
+                            <a class="btn btn-info btn-rounded btn-fw" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-info-circle"></i></a>
+                            <a class="btn btn-danger btn-rounded btn-fw" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
                         </td>
                     </tr>
                 }
