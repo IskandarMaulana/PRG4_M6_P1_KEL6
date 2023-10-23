@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PRG4_M6_P1_KEL6",
+    "\\PRG4_M6_P1_KEL6\\Models",
+    "\\PRG4_M6_P1_KEL6\\obj",
+    "\\PRG4_M6_P1_KEL6\\Views",
+    "\\PRG4_M6_P1_KEL6\\Views\\Users"
   ],
+  "SelectedNode": "\\PRG4_M6_P1_KEL6\\Models\\User.cs",
   "PreviewInSolutionExplorer": false
 }
