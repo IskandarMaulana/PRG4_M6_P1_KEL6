@@ -7,47 +7,62 @@
 <h1>Index</h1>
 
 <p>
-    <a class="btn btn-primary" asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-info">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nama)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prodi)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NoTelp)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nama)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Prodi)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NoTelp)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Nim">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Nim">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Nim">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="card-body">
+    <h4 class="card-title">Data Petugas</h4>
+    @*<p class="card-description">
+    Add class <code>.table</code>
+    </p>*@
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Nim
+                    </th>
+                    <th>
+                        Nama
+                    </th>
+                    <th>
+                        Prodi
+                    </th>
+                    <th>
+                        NoTelp
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nim)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nama)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Prodi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NoTelp)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Nim" class="btn btn-info btn-rounded btn-fw">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Nim" class="btn btn-info btn-rounded btn-fw">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Nim" class="btn btn-info btn-rounded btn-fw">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
