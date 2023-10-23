@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\k3key\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {}
+    "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\k3key\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {
+    "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k3key\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+        "projectUniqueName": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
         "projectName": "PRG4_M6_P1_KEL6",
-        "projectPath": "C:\\Users\\k3key\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
-        "packagesPath": "C:\\Users\\k3key\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k3key\\Source\\Repos\\IskandarMaulana\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\obj\\",
+        "projectPath": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6.csproj",
+        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\source\\repos\\PRG4_M6_P1_KEL6\\PRG4_M6_P1_KEL6\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\k3key\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
