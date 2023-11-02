@@ -47,7 +47,7 @@ namespace PRG4_M6_P1_KEL6.Controllers
         // GET: JadwalPetugas/Create
         public IActionResult Create()
         {
-            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nim");
+            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nama");
             return View();
         }
 
@@ -64,7 +64,9 @@ namespace PRG4_M6_P1_KEL6.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nim", jadwalPetuga.Nim);
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            ViewData["ErrorMsg"] = errors;
+            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nama", jadwalPetuga.Nim);
             return View(jadwalPetuga);
         }
 
@@ -81,7 +83,7 @@ namespace PRG4_M6_P1_KEL6.Controllers
             {
                 return NotFound();
             }
-            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nim", jadwalPetuga.Nim);
+            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nama", jadwalPetuga.Nim);
             return View(jadwalPetuga);
         }
 
@@ -117,7 +119,7 @@ namespace PRG4_M6_P1_KEL6.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nim", jadwalPetuga.Nim);
+            ViewData["Nim"] = new SelectList(_context.DataPetugas, "Nim", "Nama", jadwalPetuga.Nim);
             return View(jadwalPetuga);
         }
 

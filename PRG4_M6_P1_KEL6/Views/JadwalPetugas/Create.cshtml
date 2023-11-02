@@ -13,6 +13,9 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
+                <span class="text-danger">@ViewBag.ErrorMsg</span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Nim" class="control-label"></label>
                 <select asp-for="Nim" class ="form-control" asp-items="ViewBag.Nim"></select>
             </div>
